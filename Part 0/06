@@ -1,0 +1,10 @@
+title spa post
+
+note over browser:
+event handler in spa.js puts new note into note list.
+the page is then re-rendered and the new list is sent to server
+end note
+
+
+browser -> server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
